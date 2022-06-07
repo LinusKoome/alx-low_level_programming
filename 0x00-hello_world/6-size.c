@@ -1,18 +1,23 @@
 #include <stdio.h>
 
 /**
- * Main - the entry point
+ * main - the entry point
  *
  * Description: prints the size of variable types
+ *
  * Return: 0
  */
 
 int main(void)
 {
 	char a;
+
 	int b;
+
 	int long c;
+
 	int long long d;
+	/* sizeof evaluates the size of a variable*/
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(a));
 	printf("Size of an int: %zu byte(s)\n", sizeof(b));
