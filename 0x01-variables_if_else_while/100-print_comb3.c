@@ -14,8 +14,10 @@ int main(void)
 	{
 		for (b = 49; b < 58; b++)
 		{
-			putchar(a);
-			putchar(b);
+			if (a != b)
+			{
+				putchar(a);
+				putchar(b);
 
 			if (a == 56 && b == 57)
 			{
@@ -23,6 +25,7 @@ int main(void)
 			}
 				putchar(',');
 				putchar(' ');
+			}
 		}
 	}
 
